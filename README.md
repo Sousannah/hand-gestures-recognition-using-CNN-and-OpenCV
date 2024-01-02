@@ -51,17 +51,17 @@ The `CNN_model02.h5` script addresses overfitting by incorporating dropout layer
 
 ### Screenshots
 
-![Gesture Detection](Screenshot 2024-01-02 201403.png)
+![Gesture Detection](Screenshot_2024-01-02_201403.png)
 *Caption: Real-time gesture detection using OpenCV.*
 
-![Gesture Detection](Screenshot 2024-01-02 201556.png)
+![Gesture Detection](Screenshot_2024-01-02_201556.png)
 *Caption: Real-time gesture detection using OpenCV.*
 
 ## Dataset
 
--The dataset used for training and testing the models can be found on [Kaggle]([https://www.kaggle.com/datasets/grassknoted/asl-alphabet/data]).
--We only used the 'A' 'B' 'C' 'F' 'K' 'Y'
--We name them the following: "Down", "Up", "Right", "Back", "Front", and "Left". As these will be distinct moves for the drone on AirSim
+- The dataset used for training and testing the models can be found on [Kaggle](https://www.kaggle.com/datasets/grassknoted/asl-alphabet/data).
+- For this project, we specifically used only the 'A', 'B', 'C', 'F', 'K', and 'Y' classes from the ASL alphabet dataset.
+- We've labeled these classes as follows: "Down", "Up", "Right", "Back", "Front", and "Left". These labels correspond to distinct movements for controlling the AirSim drone.
 
 ## Gesture Control for AirSim Drone
 `AirSim_Drone_Control.py`
