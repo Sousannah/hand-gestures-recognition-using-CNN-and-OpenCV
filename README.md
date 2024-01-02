@@ -54,8 +54,9 @@ The `CNN_model02.h5` script addresses overfitting by incorporating dropout layer
 ![Gesture Detection](https://github.com/Sousannah/Hand_Gesture_Airsim_Controlled_Drone02_CNN/blob/52eb5913350be4ea7c47794f80b174e1c3d32001/Screenshot%202024-01-02%20201403.png)
 *Caption: Real-time gesture detection using OpenCV.*
 
-![Gesture Detection](Hand_Gesture_Airsim_Controlled_Drone02_CNN/Screenshot_2024-01-02_201556.png)
+![Gesture Detection](https://github.com/Sousannah/Hand_Gesture_Airsim_Controlled_Drone02_CNN/blob/95ef7012e6276f88c75f0ad5fe41e8575fca60ff/Screenshot%202024-01-02%20201556.png)
 *Caption: Real-time gesture detection using OpenCV.*
+
 
 ## Dataset
 
