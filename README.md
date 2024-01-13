@@ -64,10 +64,10 @@ The `CNN_model02.h5` script addresses overfitting by incorporating dropout layer
 - We've labeled these classes as follows: "Down", "Up", "Right", "Back", "Front", and "Left". These labels correspond to distinct movements for controlling the AirSim drone.
 
 ## Gesture Control for Drones
-# Tello Test
+## Tello Test
 - Tello_Test.py controls the DJI Tello drone using recognized hand gestures. The gestures correspond to specific drone movements triggered upon detection.
 
-# AirSim Test
+## AirSim Test
 - AirSim_Test.py controls the drone in the AirSim environment based on recognized hand gestures. The gestures correspond to distinct movements, triggering specific actions for the AirSim drone.
 
 ## Gesture Control for AirSim Drone
