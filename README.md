@@ -57,12 +57,18 @@ The `CNN_model02.h5` script addresses overfitting by incorporating dropout layer
 ![Gesture Detection](https://github.com/Sousannah/Hand_Gesture_Airsim_Controlled_Drone02_CNN/blob/95ef7012e6276f88c75f0ad5fe41e8575fca60ff/Screenshot%202024-01-02%20201556.png)
 *Caption: Real-time gesture detection using OpenCV.*
 
-
 ## Dataset
 
 - The dataset used for training and testing the models can be found on [Kaggle](https://www.kaggle.com/datasets/grassknoted/asl-alphabet/data).
 - For this project, we specifically used only the 'A', 'B', 'C', 'F', 'K', and 'Y' classes from the ASL alphabet dataset.
 - We've labeled these classes as follows: "Down", "Up", "Right", "Back", "Front", and "Left". These labels correspond to distinct movements for controlling the AirSim drone.
+
+## Gesture Control for Drones
+# Tello Test
+- Tello_Test.py controls the DJI Tello drone using recognized hand gestures. The gestures correspond to specific drone movements triggered upon detection.
+
+# AirSim Test
+- AirSim_Test.py controls the drone in the AirSim environment based on recognized hand gestures. The gestures correspond to distinct movements, triggering specific actions for the AirSim drone.
 
 ## Gesture Control for AirSim Drone
 `AirSim_Drone_Control.py`
